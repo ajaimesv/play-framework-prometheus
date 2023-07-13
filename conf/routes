@@ -1,0 +1,8 @@
+# Prometheus' metrics endpoint
+GET   /metrics            controllers.PrometheusController.metrics
+
+# App root
+GET   /                   controllers.HomeController.index()
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)

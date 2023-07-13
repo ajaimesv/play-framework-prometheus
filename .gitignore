@@ -1,0 +1,6 @@
+target
+/.bsp
+/.idea
+/data
+/logs
+/RUNNING_PID
